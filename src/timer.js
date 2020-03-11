@@ -74,10 +74,10 @@ class Timer extends Component {
               ? null
               : (this.myInterval = () => {
                   this.setState(({}) => ({
-                    minutes: 1
+                    minutes: 0
                   }));
                   this.setState(({}) => ({
-                    seconds: 0
+                    seconds: 59
                   }));
                 })
           }
